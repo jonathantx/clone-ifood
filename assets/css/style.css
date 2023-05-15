@@ -29,6 +29,10 @@ body {
     }
 }
 
+.container {
+    margin-bottom: 4.5rem;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -311,10 +315,12 @@ hr {
     margin-top: 0.85rem;
     overflow-x: scroll;
     gap: 10px;
+    line-height: 1px;
 }
 
 .itens {
     text-align: center;
+    line-height: 1px;   
 }
 
 .itens-receita img {
@@ -378,4 +384,34 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 68px;
+    gap: 24px;
+    padding: 1rem 0rem;
+    border-top: 0.5px solid #A4A19F;
+}
+
+.option-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 13px;
+}
+
+.icone-footer {
+    width: 40.86px;
+    height: 40.86px;
+}
+
+.option-name {
+    color: #A4A19F;
 }
