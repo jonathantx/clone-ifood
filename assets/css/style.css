@@ -393,7 +393,7 @@ hr {
     justify-content: space-evenly;
     width: 100%;
     background-color: #FFFFFF;
-    height: 68px;
+    height: 59px;
     gap: 24px;
     padding: 1rem 0rem;
     border-top: 0.5px solid #A4A19F;
@@ -408,8 +408,8 @@ hr {
 }
 
 .icone-footer {
-    width: 40.86px;
-    height: 40.86px;
+    width: 37.86px;
+    height: 37.86px;
 }
 
 .option-name {
